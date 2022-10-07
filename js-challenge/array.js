@@ -34,3 +34,47 @@ console.log('new array',ourArray);
 const myList = [["John",1],["Jane",2],["Ange",3],["Alice",4],["Anne",5]];
 
 console.log('names and numbers',myList);
+
+
+
+  // to find sum
+
+  const functionWithArgs = (a,b) =>{
+    console.log(a+b);
+  }
+  functionWithArgs(1,2);
+  functionWithArgs(7,9);
+
+
+  function timesFive(a){
+    console.log('answer =',a*5);
+  }
+   timesFive(5);
+   timesFive(2);
+   timesFive(0);
+
+
+ 
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+  console.log('sum is',sum);
+}
+
+ function addFive(){
+   sum = sum + 5;
+ }
+addThree();
+addFive();
+
+// Assignment with a Returned Value
+
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+processed = processArg(7);
+console.log(processed);
