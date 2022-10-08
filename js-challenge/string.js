@@ -16,3 +16,18 @@ const outerWear = "sweater" // local variable
 }
 
 myOutfit();
+
+// Use Conditional Logic with If Statements
+
+function trueOrFalse(wasThatTrue) {
+ 
+if(wasThatTrue){
+  console.log('Yes, that was true');
+}
+else{
+  console.log('No, that was false');
+}
+
+}
+trueOrFalse(true);
+trueOrFalse(false);
