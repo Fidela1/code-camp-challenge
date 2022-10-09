@@ -8,7 +8,7 @@ const reusableFunction = () =>{
 
 const outerWear = "T-Shirt"; // global varuable
 
-function myOutfit() {
+const myOutfit = () =>{
   
 const outerWear = "sweater" // local variable
   
@@ -19,7 +19,7 @@ myOutfit();
 
 // Use Conditional Logic with If Statements
 
-function trueOrFalse(wasThatTrue) {
+const trueOrFalse = (wasThatTrue) =>{
  
 if(wasThatTrue){
   console.log('Yes, that was true');
@@ -31,3 +31,26 @@ else{
 }
 trueOrFalse(true);
 trueOrFalse(false);
+
+// comparison operator
+
+const testEqual = (val) =>{
+  if (val == 12) { // Change this line
+    console.log("Equal"); 
+  }
+  else{
+  console.log("Not Equal"); 
+  }
+}
+
+testEqual(10);
+
+// Setup
+const testNotEqual = (val) =>{
+  if (val != 99) { 
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+console.log(testNotEqual(10));
