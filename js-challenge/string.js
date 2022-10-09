@@ -45,7 +45,8 @@ const testEqual = (val) =>{
 
 testEqual(10);
 
-// Setup
+// Comparison with the Inequality Operator
+
 const testNotEqual = (val) =>{
   if (val != 99) { 
     return "Not Equal";
@@ -54,3 +55,60 @@ const testNotEqual = (val) =>{
 }
 
 console.log(testNotEqual(10));
+
+
+const testStrictNotEqual = (val) => {
+  if (val !== 17) { 
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+console.log(testStrictNotEqual(10));
+
+// comparison with greater than operator
+
+const testGreaterThan = (val) =>{
+  if (val >100) {  // Change this line
+    return "Over 100";
+  }
+
+  if (val > 10) {  // Change this line
+    return "Over 10";
+  }
+
+  return "10 or Under";
+}
+
+console.log(testGreaterThan(10));
+
+// Comparison with the Greater Than Or Equal To Operator
+
+const testGreaterOrEqual = (val) =>{
+  if (val >=20) {  // Change this line
+    return "20 or Over";
+  }
+
+  if (val >=10) {  // Change this line
+    return "10 or Over";
+  }
+
+  return "Less than 10";
+}
+
+console.log(testGreaterOrEqual(10));
+
+
+const testLessOrEqual = (val) =>{
+  if (val<=12) {  // Change this line
+    return "Smaller Than or Equal to 12";
+  }
+
+  if (val<=24) {  // Change this line
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "More Than 24";
+}
+
+console.log(testLessOrEqual(10));
