@@ -112,3 +112,4 @@ const testLessOrEqual = (val) =>{
 }
 
 console.log(testLessOrEqual(10));
+console.log(testLessOrEqual(20));
