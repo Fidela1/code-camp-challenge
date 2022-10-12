@@ -158,8 +158,4 @@ console.log(integer(3.4));
 console.log(integer(2.4));
 
 
-function duplicate(arr) {
-  return arr.concat(arr);
-}
 
-console.log(duplicate([1, 2, 3, 4, 5]));
