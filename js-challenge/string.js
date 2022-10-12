@@ -137,3 +137,12 @@ return "Huge";
 }
 
 console.log(testSize(7));
+
+// 
+const emptyArray = () => {
+var array = [1,2,3,4];
+var newArray = array;
+array= [];
+console.log(array);
+}
+emptyArray();
