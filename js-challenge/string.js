@@ -138,7 +138,7 @@ return "Huge";
 
 console.log(testSize(7));
 
-// 
+// to make array empty
 const emptyArray = () => {
 var array = [1,2,3,4];
 var newArray = array;
@@ -146,3 +146,16 @@ array= [];
 console.log(array);
 }
 emptyArray();
+
+// to check if number is enteger
+
+const integer = (n) => {
+ return n %1 === 0;
+
+ }
+console.log(integer(4));
+console.log(integer(3.4));
+console.log(integer(2.4));
+
+
+

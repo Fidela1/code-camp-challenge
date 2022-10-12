@@ -78,3 +78,21 @@ function processArg(num) {
 
 processed = processArg(7);
 console.log(processed);
+
+//vghj
+function countItem (sr){
+
+  if (sr){
+    var obj ={};
+  for(let i=0;i<sr.length;i++){
+    if (obj[sr[i]]){
+      obj[sr[i]] += obj[sr[i]];
+    }
+    else{
+      obj[sr[i]] = 1;
+    }
+    }
+    console.log(obj);
+  }
+}
+countItem("abbds");
