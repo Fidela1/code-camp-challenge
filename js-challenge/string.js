@@ -157,5 +157,8 @@ console.log(integer(4));
 console.log(integer(3.4));
 console.log(integer(2.4));
 
+// substring method
 
-
+let c = 'Banana,Orange,Apple';
+let t = c.substring(7,13);
+console.log(t);
