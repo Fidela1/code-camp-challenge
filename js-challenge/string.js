@@ -162,3 +162,26 @@ console.log(integer(2.4));
 let c = 'Banana,Orange,Apple';
 let t = c.substring(7,13);
 console.log(t);
+
+// switch case
+const caseInSwitch = (val) =>{
+  let answer = "";
+
+switch(val){
+  case 1:
+answer = "alpha";
+break;
+  case 2:
+answer = "beta";
+break;
+  case 3:
+answer = "gamma";
+break;
+case 4:
+answer = "delta";
+break;
+}
+  return answer;
+}
+
+console.log(caseInSwitch(1));
