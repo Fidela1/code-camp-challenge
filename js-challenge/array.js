@@ -96,3 +96,12 @@ function countItem (sr){
   }
 }
 countItem("abbds");
+
+const myDog = {
+
+  name:"sam",
+  legs:4,
+  tails:1,
+  friends:["Alice","Alliane","Anne"]
+  };
+  console.log(myDog);
