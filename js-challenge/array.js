@@ -116,3 +116,10 @@ const testObj = {
 const playerNumber = 16; 
 const player = testObj[playerNumber];   
 console.log(player);
+
+// using forEach method
+const students = ["Alliane","Alice","Anne","Jane"];
+students.forEach(myStudent);
+function myStudent(item){
+  console.log(item);
+}
