@@ -123,3 +123,14 @@ students.forEach(myStudent);
 function myStudent(item){
   console.log(item);
 }
+
+const student = ["Alliane","Alice","Anne","Jane"];
+student.forEach(myStudent);
+
+// adding strings to the array elements
+
+function myStudent(item,index,arr){
+  arr[index] = 'Hello ' +item;
+  
+}
+console.log(student);
