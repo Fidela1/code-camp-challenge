@@ -80,7 +80,7 @@ processed = processArg(7);
 console.log(processed);
 
 //vghj
-function countItem (sr){
+const countItem = (sr) =>{
 
   if (sr){
     var obj ={};
@@ -123,3 +123,25 @@ students.forEach(myStudent);
 function myStudent(item){
   console.log(item);
 }
+
+const student = ["Alliane","Alice","Anne","Jane"];
+student.forEach(myStudent);
+
+// adding strings to the array elements
+
+const myStudents = (item,index,arr) => {
+  arr[index] = 'Hello ' +item;
+  
+}
+console.log(student);
+
+
+// to check if number is even or odd
+const number1 = [1,2,3,4,5,6,7,8];
+const findEven = (even) => {
+return even%2 == 0;
+}
+let bbb = number1.filter(findEven);
+console.log(bbb);
+
+
