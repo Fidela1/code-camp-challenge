@@ -136,12 +136,20 @@ const myStudents = (item,index,arr) => {
 console.log(student);
 
 
-// to check if number is even or odd
+// to check if number is even 
 const number1 = [1,2,3,4,5,6,7,8];
 const findEven = (even) => {
 return even%2 == 0;
 }
-let bbb = number1.filter(findEven);
-console.log(bbb);
+let even1 = number1.filter(findEven);
+console.log(even1);
 
 
+//  Get the first element of an array
+var is_array = function(input) {
+  if (toString.call(input) === "[object Array]")
+    return true;
+  return false;   
+    };
+console.log(is_array('w3resource'));
+console.log(is_array([1, 2, 4, 0]));
