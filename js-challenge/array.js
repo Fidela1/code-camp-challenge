@@ -1,6 +1,6 @@
 // push method
 
-const myArray = [["John", 23], ["cat", 2]];
+const myArray = [["John", 23, {color:'red'}], ["cat", 2]];
 
 myArray.push(["dog",3]);
 console.log('myArray ',myArray);
